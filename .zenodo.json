@@ -1,0 +1,34 @@
+{
+  "title": "HVAC Bench Error Code Dataset",
+  "upload_type": "dataset",
+  "description": "<p>Error codes from HVAC equipment sold in the United States, United Kingdom, and Europe, as published by HVAC Bench. Each record gives the manufacturer, the code, the product family the definition applies to, a plain-language meaning, the checks an owner can safely make, the point at which a technician is needed, and the date the definition was last checked against manufacturer documentation. Codes are specific to a product family and are not interchangeable between brands.</p><p>Dataset page: <a href=\"https://hvac-bench.com/data/hvac-error-codes/\">https://hvac-bench.com/data/hvac-error-codes/</a></p>",
+  "creators": [
+    {
+      "name": "Haroon, Mukarram",
+      "affiliation": "HVAC Bench"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "HVAC error codes",
+    "heat pump fault codes",
+    "mini-split error codes",
+    "boiler fault codes",
+    "air conditioner diagnostics",
+    "HVAC troubleshooting"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://hvac-bench.com/data/hvac-error-codes/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://hvac-bench.com/api/v1/error-codes/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}
