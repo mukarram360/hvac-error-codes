@@ -22,11 +22,14 @@ configs:
 
 # HVAC Bench Error Code Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22698962.svg)](https://doi.org/10.5281/zenodo.22698962)
+
 Error codes from HVAC equipment sold in the United States, United Kingdom, and Europe, as published by HVAC Bench. Each record gives the manufacturer, the code, the product family the definition applies to, a plain-language meaning, the checks an owner can safely make, the point at which a technician is needed, and the date the definition was last checked against manufacturer documentation. Codes are specific to a product family and are not interchangeable between brands.
 
 - **Publisher:** [HVAC Bench](https://hvac-bench.com)
 - **Creator:** Mukarram Haroon, HVAC Bench
 - **Dataset page:** https://hvac-bench.com/data/hvac-error-codes/
+- **DOI:** [10.5281/zenodo.22698962](https://doi.org/10.5281/zenodo.22698962) (all versions: [10.5281/zenodo.22698961](https://doi.org/10.5281/zenodo.22698961))
 - **Version:** 1.0.0 (updated 2026-09-11)
 - **Licence:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Records:** 87 codes across 38 manufacturers and 9 equipment types
@@ -45,6 +48,13 @@ The `owner_safe_checks` column lists only checks that need no tools and no acces
 | `hvac-error-codes.json` | JSON with dataset metadata and a `records` array |
 
 The same data is served live at `https://hvac-bench.com/api/v1/error-codes/` with cross-origin access allowed.
+
+The canonical copy is the [dataset page on HVAC Bench](https://hvac-bench.com/data/hvac-error-codes/). Identical copies are published on:
+
+- [GitHub](https://github.com/mukarram360/hvac-error-codes)
+- [Zenodo](https://zenodo.org/records/22698962)
+- [Kaggle](https://www.kaggle.com/datasets/mukarramharoon/hvac-error-codes-by-hvac-bench)
+- [Hugging Face](https://huggingface.co/datasets/mukarram360/hvac-error-codes)
 
 ## Columns
 
@@ -142,6 +152,7 @@ Under CC BY 4.0 you may share and adapt the data for any purpose, including comm
   publisher = {HVAC Bench},
   year      = {2026},
   version   = {1.0.0},
+  doi       = {10.5281/zenodo.22698962},
   url       = {https://hvac-bench.com/data/hvac-error-codes/}
 }
 ```

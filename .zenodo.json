@@ -29,6 +29,16 @@
       "identifier": "https://hvac-bench.com/api/v1/error-codes/",
       "relation": "isIdenticalTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/mukarramharoon/hvac-error-codes-by-hvac-bench",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/mukarram360/hvac-error-codes",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
     }
   ]
 }
