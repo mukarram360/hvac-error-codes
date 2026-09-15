@@ -26,10 +26,11 @@ configs:
 
 Error codes from HVAC equipment sold in the United States, United Kingdom, and Europe, as published by HVAC Bench. Each record gives the manufacturer, the code, the product family the definition applies to, a plain-language meaning, the checks an owner can safely make, the point at which a technician is needed, and the date the definition was last checked against manufacturer documentation. Codes are specific to a product family and are not interchangeable between brands.
 
-- **Publisher:** [HVAC Bench](https://hvac-bench.com)
+- **Publisher:** [HVAC Bench](https://hvac-bench.com/)
 - **Creator:** Mukarram Haroon, HVAC Bench
-- **Dataset page:** https://hvac-bench.com/data/hvac-error-codes/
-- **DOI:** [10.5281/zenodo.22698961](https://doi.org/10.5281/zenodo.22698961), which always resolves to the latest deposited version. Version 1.0.0 is archived as [10.5281/zenodo.22698962](https://doi.org/10.5281/zenodo.22698962).
+- **Dataset page:** [HVAC Bench Error Code Dataset](https://hvac-bench.com/data/hvac-error-codes/)
+- **Error code library:** [HVAC Error Codes by Manufacturer](https://hvac-bench.com/error-codes/)
+- **DOI:** [10.5281/zenodo.22698961](https://doi.org/10.5281/zenodo.22698961), the concept DOI for all versions, which always resolves to the latest deposited version. Version 1.1.0 is [10.5281/zenodo.22763965](https://doi.org/10.5281/zenodo.22763965); version 1.0.0 is archived as [10.5281/zenodo.22698962](https://doi.org/10.5281/zenodo.22698962).
 - **Version:** 1.1.0 (updated 2026-09-15)
 - **Licence:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Records:** 161 codes across 50 manufacturers and 9 equipment types
@@ -52,7 +53,7 @@ The same data is served live at `https://hvac-bench.com/api/v1/error-codes/` wit
 The canonical copy is the [dataset page on HVAC Bench](https://hvac-bench.com/data/hvac-error-codes/). Identical copies are published on:
 
 - [GitHub](https://github.com/mukarram360/hvac-error-codes)
-- [Zenodo](https://zenodo.org/records/22698962)
+- [Zenodo](https://doi.org/10.5281/zenodo.22698961)
 - [Kaggle](https://www.kaggle.com/datasets/mukarramharoon/hvac-error-codes-by-hvac-bench)
 - [Hugging Face](https://huggingface.co/datasets/mukarram360/hvac-error-codes)
 
@@ -153,7 +154,7 @@ A free lookup widget reads this dataset:
 
 Under CC BY 4.0 you may share and adapt the data for any purpose, including commercially, provided you give credit. Please attribute as:
 
-> HVAC Bench Error Code Dataset by HVAC Bench (https://hvac-bench.com), CC-BY-4.0
+> HVAC Bench Error Code Dataset by HVAC Bench (<https://hvac-bench.com/>), CC BY 4.0
 
 ## Citation
 
