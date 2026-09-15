@@ -22,17 +22,17 @@ configs:
 
 # HVAC Bench Error Code Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22698962.svg)](https://doi.org/10.5281/zenodo.22698962)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22698961.svg)](https://doi.org/10.5281/zenodo.22698961)
 
 Error codes from HVAC equipment sold in the United States, United Kingdom, and Europe, as published by HVAC Bench. Each record gives the manufacturer, the code, the product family the definition applies to, a plain-language meaning, the checks an owner can safely make, the point at which a technician is needed, and the date the definition was last checked against manufacturer documentation. Codes are specific to a product family and are not interchangeable between brands.
 
 - **Publisher:** [HVAC Bench](https://hvac-bench.com)
 - **Creator:** Mukarram Haroon, HVAC Bench
 - **Dataset page:** https://hvac-bench.com/data/hvac-error-codes/
-- **DOI:** [10.5281/zenodo.22698962](https://doi.org/10.5281/zenodo.22698962) (all versions: [10.5281/zenodo.22698961](https://doi.org/10.5281/zenodo.22698961))
-- **Version:** 1.0.0 (updated 2026-09-11)
+- **DOI:** [10.5281/zenodo.22698961](https://doi.org/10.5281/zenodo.22698961), which always resolves to the latest deposited version. Version 1.0.0 is archived as [10.5281/zenodo.22698962](https://doi.org/10.5281/zenodo.22698962).
+- **Version:** 1.1.0 (updated 2026-09-15)
 - **Licence:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **Records:** 87 codes across 38 manufacturers and 9 equipment types
+- **Records:** 161 codes across 50 manufacturers and 9 equipment types
 
 ## Read this before using a code
 
@@ -83,44 +83,56 @@ The canonical copy is the [dataset page on HVAC Bench](https://hvac-bench.com/da
 
 | Manufacturer | Records |
 | --- | --- |
-| Daikin | 5 |
-| Goodman | 5 |
-| Gree | 4 |
-| Mitsubishi Electric | 4 |
-| MRCOOL | 4 |
-| York | 4 |
-| Carrier | 3 |
-| Ideal Heating | 3 |
-| Lennox | 3 |
-| LG | 3 |
-| Panasonic | 3 |
-| Pioneer | 3 |
-| Rheem | 3 |
-| Senville | 3 |
-| Vaillant | 3 |
-| Ariston | 2 |
-| Baxi | 2 |
-| Bosch | 2 |
-| Della | 2 |
-| Google Nest | 2 |
-| Haier | 2 |
-| Hitachi | 2 |
-| Klimaire | 2 |
-| Midea | 2 |
-| tado | 2 |
-| Worcester Bosch | 2 |
-| Amana | 1 |
-| American Standard | 1 |
-| Blueridge | 1 |
-| Cooper & Hunter | 1 |
-| Daikin Altherma | 1 |
-| Hisense | 1 |
-| NIBE | 1 |
-| Ruud | 1 |
-| Samsung | 1 |
-| Toshiba | 1 |
-| Trane | 1 |
-| Viessmann | 1 |
+| Daikin | 11 |
+| Mitsubishi Electric | 9 |
+| Carrier | 8 |
+| Goodman | 8 |
+| Gree | 6 |
+| LG | 6 |
+| York | 6 |
+| MRCOOL | 5 |
+| Vaillant | 5 |
+| Baxi | 4 |
+| Ideal Heating | 4 |
+| Lennox | 4 |
+| Midea | 4 |
+| Panasonic | 4 |
+| Pioneer | 4 |
+| Rheem | 4 |
+| Senville | 4 |
+| Ariston | 3 |
+| Bosch | 3 |
+| Della | 3 |
+| Google Nest | 3 |
+| Haier | 3 |
+| Hitachi | 3 |
+| Klimaire | 3 |
+| Samsung | 3 |
+| tado | 3 |
+| Trane | 3 |
+| Worcester Bosch | 3 |
+| Amana | 2 |
+| American Standard | 2 |
+| Blueridge | 2 |
+| Cooper & Hunter | 2 |
+| Daikin Altherma | 2 |
+| Hisense | 2 |
+| NIBE | 2 |
+| Ruud | 2 |
+| Toshiba | 2 |
+| Viessmann | 2 |
+| Bryant | 1 |
+| Drayton | 1 |
+| ecobee | 1 |
+| Friedrich | 1 |
+| Fujitsu General | 1 |
+| GE Appliances | 1 |
+| Grant | 1 |
+| Hive | 1 |
+| Honeywell Home | 1 |
+| Mitsubishi Heavy Industries | 1 |
+| Stiebel Eltron | 1 |
+| TCL | 1 |
 
 ## How the records are made
 
@@ -151,8 +163,8 @@ Under CC BY 4.0 you may share and adapt the data for any purpose, including comm
   author    = {Haroon, Mukarram},
   publisher = {HVAC Bench},
   year      = {2026},
-  version   = {1.0.0},
-  doi       = {10.5281/zenodo.22698962},
+  version   = {1.1.0},
+  doi       = {10.5281/zenodo.22698961},
   url       = {https://hvac-bench.com/data/hvac-error-codes/}
 }
 ```
